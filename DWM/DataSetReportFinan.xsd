@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReportFinan" targetNamespace="http://tempuri.org/DataSetReportFinan.xsd" xmlns:mstns="http://tempuri.org/DataSetReportFinan.xsd" xmlns="http://tempuri.org/DataSetReportFinan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dwmConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dwmConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DWM.Properties.Settings.GlobalReference.Default.dwmConnectionString1" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReportFinan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetReportFinan" msprop:Generator_UserDSName="DataSetReportFinan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DateCaisse" msprop:Generator_TableClassName="DateCaisseDataTable" msprop:Generator_TableVarName="tableDateCaisse" msprop:Generator_TablePropName="DateCaisse" msprop:Generator_RowDeletingName="DateCaisseRowDeleting" msprop:Generator_RowChangingName="DateCaisseRowChanging" msprop:Generator_RowEvHandlerName="DateCaisseRowChangeEventHandler" msprop:Generator_RowDeletedName="DateCaisseRowDeleted" msprop:Generator_UserTableName="DateCaisse" msprop:Generator_RowChangedName="DateCaisseRowChanged" msprop:Generator_RowEvArgName="DateCaisseRowChangeEvent" msprop:Generator_RowClassName="DateCaisseRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCais" msprop:Generator_ColumnVarNameInTable="columnIdCais" msprop:Generator_ColumnPropNameInRow="IdCais" msprop:Generator_ColumnPropNameInTable="IdCaisColumn" msprop:Generator_UserColumnName="IdCais" type="xs:int" minOccurs="0" />
+              <xs:element name="LibCais" msprop:Generator_ColumnVarNameInTable="columnLibCais" msprop:Generator_ColumnPropNameInRow="LibCais" msprop:Generator_ColumnPropNameInTable="LibCaisColumn" msprop:Generator_UserColumnName="LibCais" type="xs:string" minOccurs="0" />
+              <xs:element name="MtnCais" msprop:Generator_ColumnVarNameInTable="columnMtnCais" msprop:Generator_ColumnPropNameInRow="MtnCais" msprop:Generator_ColumnPropNameInTable="MtnCaisColumn" msprop:Generator_UserColumnName="MtnCais" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DateSortiess" msprop:Generator_TableClassName="DateSortiessDataTable" msprop:Generator_TableVarName="tableDateSortiess" msprop:Generator_RowChangedName="DateSortiessRowChanged" msprop:Generator_TablePropName="DateSortiess" msprop:Generator_RowDeletingName="DateSortiessRowDeleting" msprop:Generator_RowChangingName="DateSortiessRowChanging" msprop:Generator_RowEvHandlerName="DateSortiessRowChangeEventHandler" msprop:Generator_RowDeletedName="DateSortiessRowDeleted" msprop:Generator_RowClassName="DateSortiessRow" msprop:Generator_UserTableName="DateSortiess" msprop:Generator_RowEvArgName="DateSortiessRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MtnSort" msprop:Generator_ColumnVarNameInTable="columnMtnSort" msprop:Generator_ColumnPropNameInRow="MtnSort" msprop:Generator_ColumnPropNameInTable="MtnSortColumn" msprop:Generator_UserColumnName="MtnSort" type="xs:double" minOccurs="0" />
+              <xs:element name="LibSort" msprop:Generator_ColumnVarNameInTable="columnLibSort" msprop:Generator_ColumnPropNameInRow="LibSort" msprop:Generator_ColumnPropNameInTable="LibSortColumn" msprop:Generator_UserColumnName="LibSort" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DateEntress" msprop:Generator_TableClassName="DateEntressDataTable" msprop:Generator_TableVarName="tableDateEntress" msprop:Generator_RowChangedName="DateEntressRowChanged" msprop:Generator_TablePropName="DateEntress" msprop:Generator_RowDeletingName="DateEntressRowDeleting" msprop:Generator_RowChangingName="DateEntressRowChanging" msprop:Generator_RowEvHandlerName="DateEntressRowChangeEventHandler" msprop:Generator_RowDeletedName="DateEntressRowDeleted" msprop:Generator_RowClassName="DateEntressRow" msprop:Generator_UserTableName="DateEntress" msprop:Generator_RowEvArgName="DateEntressRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MtnEntr" msprop:Generator_ColumnVarNameInTable="columnMtnEntr" msprop:Generator_ColumnPropNameInRow="MtnEntr" msprop:Generator_ColumnPropNameInTable="MtnEntrColumn" msprop:Generator_UserColumnName="MtnEntr" type="xs:double" minOccurs="0" />
+              <xs:element name="LibEntr" msprop:Generator_ColumnVarNameInTable="columnLibEntr" msprop:Generator_ColumnPropNameInRow="LibEntr" msprop:Generator_ColumnPropNameInTable="LibEntrColumn" msprop:Generator_UserColumnName="LibEntr" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

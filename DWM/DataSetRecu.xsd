@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRecu" targetNamespace="http://tempuri.org/DataSetRecu.xsd" xmlns:mstns="http://tempuri.org/DataSetRecu.xsd" xmlns="http://tempuri.org/DataSetRecu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dwmConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dwmConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DWM.Properties.Settings.GlobalReference.Default.dwmConnectionString1" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Proc_RecuTableAdapter" GeneratorDataComponentClassName="Proc_RecuTableAdapter" Name="Proc_Recu" UserDataComponentName="Proc_RecuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dwmConnectionString1 (Settings)" DbObjectName="`dwm`.`Proc_Recu`" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>`dwm`.`Proc_Recu`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="NumCom" DataSetColumn="NumCom" />
+              <Mapping SourceColumn="MT" DataSetColumn="MT" />
+              <Mapping SourceColumn="dat" DataSetColumn="dat" />
+              <Mapping SourceColumn="penalite" DataSetColumn="penalite" />
+              <Mapping SourceColumn="Typ" DataSetColumn="Typ" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRecu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetRecu" msprop:Generator_UserDSName="DataSetRecu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Proc_Recu" msprop:Generator_TableClassName="Proc_RecuDataTable" msprop:Generator_TableVarName="tableProc_Recu" msprop:Generator_RowChangedName="Proc_RecuRowChanged" msprop:Generator_TablePropName="Proc_Recu" msprop:Generator_RowDeletingName="Proc_RecuRowDeleting" msprop:Generator_RowChangingName="Proc_RecuRowChanging" msprop:Generator_RowEvHandlerName="Proc_RecuRowChangeEventHandler" msprop:Generator_RowDeletedName="Proc_RecuRowDeleted" msprop:Generator_RowClassName="Proc_RecuRow" msprop:Generator_UserTableName="Proc_Recu" msprop:Generator_RowEvArgName="Proc_RecuRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="NumCom" msprop:Generator_ColumnVarNameInTable="columnNumCom" msprop:Generator_ColumnPropNameInRow="NumCom" msprop:Generator_ColumnPropNameInTable="NumComColumn" msprop:Generator_UserColumnName="NumCom" type="xs:int" minOccurs="0" />
+              <xs:element name="MT" msprop:Generator_ColumnVarNameInTable="columnMT" msprop:Generator_ColumnPropNameInRow="MT" msprop:Generator_ColumnPropNameInTable="MTColumn" msprop:Generator_UserColumnName="MT" type="xs:float" minOccurs="0" />
+              <xs:element name="dat" msprop:Generator_ColumnVarNameInTable="columndat" msprop:Generator_ColumnPropNameInRow="dat" msprop:Generator_ColumnPropNameInTable="datColumn" msprop:Generator_UserColumnName="dat" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="penalite" msprop:Generator_ColumnVarNameInTable="columnpenalite" msprop:Generator_ColumnPropNameInRow="penalite" msprop:Generator_ColumnPropNameInTable="penaliteColumn" msprop:Generator_UserColumnName="penalite" type="xs:float" minOccurs="0" />
+              <xs:element name="Typ" msprop:Generator_ColumnVarNameInTable="columnTyp" msprop:Generator_ColumnPropNameInRow="Typ" msprop:Generator_ColumnPropNameInTable="TypColumn" msprop:Generator_UserColumnName="Typ" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Proc_Recu" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

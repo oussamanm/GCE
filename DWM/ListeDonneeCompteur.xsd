@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ListeDonneeCompteur" targetNamespace="http://tempuri.org/ListeDonneeCompteur.xsd" xmlns:mstns="http://tempuri.org/ListeDonneeCompteur.xsd" xmlns="http://tempuri.org/ListeDonneeCompteur.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dwmConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dwmConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DWM.Properties.Settings.GlobalReference.Default.dwmConnectionString1" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="listecompteurdonneeTableAdapter" GeneratorDataComponentClassName="listecompteurdonneeTableAdapter" Name="listecompteurdonnee" UserDataComponentName="listecompteurdonneeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dwmConnectionString1 (Settings)" DbObjectName="dwm.listecompteurdonnee" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT `CompteurNv`, `NumComp`, `NumAppart`,`IdComp`, `LibelleSect`, `IdSect`, `nomcomp`, `IdAdherent` FROM `dwm`.`listecompteurdonnee`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CompteurNv" DataSetColumn="CompteurNv" />
+              <Mapping SourceColumn="NumComp" DataSetColumn="NumComp" />
+              <Mapping SourceColumn="IdComp" DataSetColumn="IdComp" />
+              <Mapping SourceColumn="LibelleSect" DataSetColumn="LibelleSect" />
+              <Mapping SourceColumn="IdSect" DataSetColumn="IdSect" />
+              <Mapping SourceColumn="nomcomp" DataSetColumn="nomcomp" />
+              <Mapping SourceColumn="IdAdherent" DataSetColumn="IdAdherent" />
+              <Mapping SourceColumn="NumAppart" DataSetColumn="NumAppart" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ListeDonneeCompteur" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ListeDonneeCompteur" msprop:Generator_UserDSName="ListeDonneeCompteur">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="listecompteurdonnee" msprop:Generator_TableClassName="listecompteurdonneeDataTable" msprop:Generator_TableVarName="tablelistecompteurdonnee" msprop:Generator_RowChangedName="listecompteurdonneeRowChanged" msprop:Generator_TablePropName="listecompteurdonnee" msprop:Generator_RowDeletingName="listecompteurdonneeRowDeleting" msprop:Generator_RowChangingName="listecompteurdonneeRowChanging" msprop:Generator_RowEvHandlerName="listecompteurdonneeRowChangeEventHandler" msprop:Generator_RowDeletedName="listecompteurdonneeRowDeleted" msprop:Generator_RowClassName="listecompteurdonneeRow" msprop:Generator_UserTableName="listecompteurdonnee" msprop:Generator_RowEvArgName="listecompteurdonneeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CompteurNv" msprop:Generator_ColumnVarNameInTable="columnCompteurNv" msprop:Generator_ColumnPropNameInRow="CompteurNv" msprop:Generator_ColumnPropNameInTable="CompteurNvColumn" msprop:Generator_UserColumnName="CompteurNv" type="xs:long" />
+              <xs:element name="NumComp" msprop:Generator_ColumnVarNameInTable="columnNumComp" msprop:Generator_ColumnPropNameInRow="NumComp" msprop:Generator_ColumnPropNameInTable="NumCompColumn" msprop:Generator_UserColumnName="NumComp" type="xs:int" minOccurs="0" />
+              <xs:element name="IdComp" msprop:Generator_ColumnVarNameInTable="columnIdComp" msprop:Generator_ColumnPropNameInRow="IdComp" msprop:Generator_ColumnPropNameInTable="IdCompColumn" msprop:Generator_UserColumnName="IdComp" type="xs:int" />
+              <xs:element name="LibelleSect" msprop:Generator_ColumnVarNameInTable="columnLibelleSect" msprop:Generator_ColumnPropNameInRow="LibelleSect" msprop:Generator_ColumnPropNameInTable="LibelleSectColumn" msprop:Generator_UserColumnName="LibelleSect" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdSect" msprop:Generator_ColumnVarNameInTable="columnIdSect" msprop:Generator_ColumnPropNameInRow="IdSect" msprop:Generator_ColumnPropNameInTable="IdSectColumn" msprop:Generator_UserColumnName="IdSect" type="xs:int" />
+              <xs:element name="nomcomp" msprop:Generator_ColumnVarNameInTable="columnnomcomp" msprop:Generator_ColumnPropNameInRow="nomcomp" msprop:Generator_ColumnPropNameInTable="nomcompColumn" msprop:Generator_UserColumnName="nomcomp" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="42" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdAdherent" msprop:Generator_ColumnVarNameInTable="columnIdAdherent" msprop:Generator_ColumnPropNameInRow="IdAdherent" msprop:Generator_ColumnPropNameInTable="IdAdherentColumn" msprop:Generator_UserColumnName="IdAdherent" type="xs:int" />
+              <xs:element name="NumAppart" msprop:Generator_ColumnVarNameInTable="columnNumAppart" msprop:Generator_ColumnPropNameInRow="NumAppart" msprop:Generator_ColumnPropNameInTable="NumAppartColumn" msprop:Generator_UserColumnName="NumAppart" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:listecompteurdonnee" />
+      <xs:field xpath="mstns:IdComp" />
+      <xs:field xpath="mstns:IdSect" />
+      <xs:field xpath="mstns:IdAdherent" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
