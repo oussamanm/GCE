@@ -326,28 +326,5 @@ namespace DWM
 
             this.Hide();
         }
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            splashScreenManager1.ShowWaitForm();
-            Login LogFORM = new Login();
-            LogFORM.Show();
-
-            this.Hide();
-            splashScreenManager1.CloseWaitForm();
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-
-            FSleep.ShowDialog(this);
-        }
-        private void panelControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
     }
 }

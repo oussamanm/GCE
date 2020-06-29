@@ -159,18 +159,6 @@ namespace DWM
 
             this.Hide();
         }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-            FSleep.ShowDialog(this);
-        }        
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            Login LogFORM = new Login();
-            LogFORM.Show();
-
-            this.Close();
-        }
 
         ////// Button Actions 
         private void windowsUIButtonPanelMain_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
@@ -275,10 +263,6 @@ namespace DWM
         {
             IdRowSelected = int.Parse(gridView1.GetDataRow(gridView1.FocusedRowHandle)[0].ToString());
             IndexRowSelected = gridView1.FocusedRowHandle;
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

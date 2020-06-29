@@ -44,9 +44,6 @@
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
             this.controleHeader1 = new DWM.ControleHeader();
             this.controleFooter1 = new DWM.ControleFooter();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControlRedui = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.windowsUIButtonPanelMain = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
@@ -56,9 +53,6 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
@@ -83,46 +77,6 @@
             this.controleFooter1.Name = "controleFooter1";
             this.controleFooter1.Size = new System.Drawing.Size(1184, 40);
             this.controleFooter1.TabIndex = 1;
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl3.ContentImage = global::DWM.Properties.Resources.Cafe_32px;
-            this.panelControl3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl3.Location = new System.Drawing.Point(1067, 10);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(47, 42);
-            this.panelControl3.TabIndex = 18;
-            this.panelControl3.Click += new System.EventHandler(this.panelControl3_Click);
-            // 
-            // panelControlRedui
-            // 
-            this.panelControlRedui.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControlRedui.Appearance.Options.UseBackColor = true;
-            this.panelControlRedui.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControlRedui.ContentImage = global::DWM.Properties.Resources.Minus_32px;
-            this.panelControlRedui.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControlRedui.Location = new System.Drawing.Point(1015, 10);
-            this.panelControlRedui.Name = "panelControlRedui";
-            this.panelControlRedui.Size = new System.Drawing.Size(47, 42);
-            this.panelControlRedui.TabIndex = 17;
-            this.panelControlRedui.Click += new System.EventHandler(this.panelControlRedui_Click);
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl1.Appearance.Options.UseBackColor = true;
-            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl1.ContentImage = global::DWM.Properties.Resources.Shutdown_32px_3;
-            this.panelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl1.Location = new System.Drawing.Point(1121, 10);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(47, 42);
-            this.panelControl1.TabIndex = 16;
-            this.panelControl1.Click += new System.EventHandler(this.panelControl1_Click);
-            this.panelControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl1_Paint);
             // 
             // panel2
             // 
@@ -362,9 +316,6 @@
             this.Controls.Add(this.windowsUIButtonPanelMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelControl3);
-            this.Controls.Add(this.panelControlRedui);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.controleFooter1);
             this.Controls.Add(this.controleHeader1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -373,9 +324,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "العدادات";
             this.Load += new System.EventHandler(this.Compteurs_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
@@ -388,9 +336,6 @@
 
         private ControleHeader controleHeader1;
         private ControleFooter controleFooter1;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.PanelControl panelControlRedui;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanelMain;

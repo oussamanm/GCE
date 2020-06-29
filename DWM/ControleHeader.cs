@@ -27,5 +27,32 @@ namespace DWM
             
             
         }
+
+        private void windowsUIButtonPanel1_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
+        {
+            try
+            {
+                if (e.Button.Properties.Tag == "quit")
+                {
+                    Login LogFORM = new Login();
+                    LogFORM.Show();
+
+                    this.ParentForm.Hide();
+                }
+                else if (e.Button.Properties.Tag == "sleep")
+                {
+                    Sleep FSleep = new Sleep();
+                    FSleep.ShowDialog(this);
+                }
+                else if (e.Button.Properties.Tag == "minimize")
+                {
+                    this.ParentForm.WindowState = FormWindowState.Minimized;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
