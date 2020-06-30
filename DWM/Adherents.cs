@@ -20,6 +20,7 @@ namespace DWM
         public Adherents()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية/المنخرطون";
         }
 
         DataSet ds;
@@ -77,7 +78,7 @@ namespace DWM
         {
             try
             {
-
+                
                 splashScreenManager1.ShowWaitForm();
 
                 ds = new DataSet();
@@ -150,14 +151,6 @@ namespace DWM
                 ClassConnexion.Macon.Close();
                 splashScreenManager1.CloseWaitForm();
             }
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-
-            this.Hide();
         }
 
         ////// Button Actions 

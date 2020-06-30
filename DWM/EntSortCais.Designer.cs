@@ -59,11 +59,6 @@
             DevExpress.Utils.ToolTipItem toolTipItem14 = new DevExpress.Utils.ToolTipItem();
             this.controleHeader1 = new DWM.ControleHeader();
             this.controleFooter1 = new DWM.ControleFooter();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControlRedui = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
             this.windowsUIButtonPanelMainSort = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.navigationFrame1 = new DevExpress.XtraBars.Navigation.NavigationFrame();
@@ -197,9 +192,6 @@
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButtonEntr = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButtonSort = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame1)).BeginInit();
             this.navigationFrame1.SuspendLayout();
             this.navigationPage1.SuspendLayout();
@@ -270,71 +262,6 @@
             this.controleFooter1.Name = "controleFooter1";
             this.controleFooter1.Size = new System.Drawing.Size(1184, 40);
             this.controleFooter1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(254, 19);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(33, 24);
-            this.panel2.TabIndex = 92;
-            this.panel2.Click += new System.EventHandler(this.panel2_Click_1);
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(-2, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(255, 24);
-            this.label3.TabIndex = 91;
-            this.label3.Text = "الصفحة الرئيسية/المصاريف و المداخيل";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Click += new System.EventHandler(this.panel2_Click_1);
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl3.ContentImage = global::DWM.Properties.Resources.Cafe_32px;
-            this.panelControl3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl3.Location = new System.Drawing.Point(1059, 10);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(47, 42);
-            this.panelControl3.TabIndex = 90;
-            this.panelControl3.Click += new System.EventHandler(this.panelControl3_Click);
-            // 
-            // panelControlRedui
-            // 
-            this.panelControlRedui.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControlRedui.Appearance.Options.UseBackColor = true;
-            this.panelControlRedui.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControlRedui.ContentImage = global::DWM.Properties.Resources.Minus_32px;
-            this.panelControlRedui.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControlRedui.Location = new System.Drawing.Point(1007, 10);
-            this.panelControlRedui.Name = "panelControlRedui";
-            this.panelControlRedui.Size = new System.Drawing.Size(47, 42);
-            this.panelControlRedui.TabIndex = 89;
-            this.panelControlRedui.Click += new System.EventHandler(this.panelControlRedui_Click);
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl1.Appearance.Options.UseBackColor = true;
-            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl1.ContentImage = global::DWM.Properties.Resources.Shutdown_32px_3;
-            this.panelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl1.Location = new System.Drawing.Point(1113, 10);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(47, 42);
-            this.panelControl1.TabIndex = 88;
-            this.panelControl1.Click += new System.EventHandler(this.panelControl1_Click);
             // 
             // splashScreenManager1
             // 
@@ -2516,11 +2443,6 @@
             this.ControlBox = false;
             this.Controls.Add(this.panelControl10);
             this.Controls.Add(this.navigationFrame1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelControl3);
-            this.Controls.Add(this.panelControlRedui);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.controleFooter1);
             this.Controls.Add(this.controleHeader1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -2529,9 +2451,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sorties";
             this.Load += new System.EventHandler(this.Sorties_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame1)).EndInit();
             this.navigationFrame1.ResumeLayout(false);
             this.navigationPage1.ResumeLayout(false);
@@ -2599,11 +2518,6 @@
 
         private ControleHeader controleHeader1;
         private ControleFooter controleFooter1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.PanelControl panelControlRedui;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
         private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanelMainSort;
         private DevExpress.XtraBars.Navigation.NavigationFrame navigationFrame1;

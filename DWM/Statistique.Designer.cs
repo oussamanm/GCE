@@ -194,11 +194,6 @@
             this.tileViewColumn10 = new DevExpress.XtraGrid.Columns.TileViewColumn();
             this.controleHeader1 = new DWM.ControleHeader();
             this.controleFooter1 = new DWM.ControleFooter();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControlRedui = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
             this.navigationFrame1 = new DevExpress.XtraBars.Navigation.NavigationFrame();
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
@@ -515,9 +510,6 @@
             this.tileBarGroup3 = new DevExpress.XtraBars.Navigation.TileBarGroup();
             this.tileBarItem2 = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileItem2 = new DevExpress.XtraEditors.TileItem();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame1)).BeginInit();
             this.navigationFrame1.SuspendLayout();
             this.navigationPage1.SuspendLayout();
@@ -764,71 +756,6 @@
             this.controleFooter1.Name = "controleFooter1";
             this.controleFooter1.Size = new System.Drawing.Size(1184, 40);
             this.controleFooter1.TabIndex = 13;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(3, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(206, 22);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "الصفحة الرئيسية  /  إحصائيات";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(215, 13);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(44, 27);
-            this.panel2.TabIndex = 22;
-            this.panel2.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl3.ContentImage = global::DWM.Properties.Resources.Cafe_32px;
-            this.panelControl3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl3.Location = new System.Drawing.Point(1083, 9);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(47, 42);
-            this.panelControl3.TabIndex = 20;
-            this.panelControl3.Click += new System.EventHandler(this.panelControl3_Click);
-            // 
-            // panelControlRedui
-            // 
-            this.panelControlRedui.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControlRedui.Appearance.Options.UseBackColor = true;
-            this.panelControlRedui.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControlRedui.ContentImage = global::DWM.Properties.Resources.Minus_32px;
-            this.panelControlRedui.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControlRedui.Location = new System.Drawing.Point(1036, 9);
-            this.panelControlRedui.Name = "panelControlRedui";
-            this.panelControlRedui.Size = new System.Drawing.Size(47, 42);
-            this.panelControlRedui.TabIndex = 19;
-            this.panelControlRedui.Click += new System.EventHandler(this.panelControlRedui_Click);
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl1.Appearance.Options.UseBackColor = true;
-            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl1.ContentImage = global::DWM.Properties.Resources.Shutdown_32px_3;
-            this.panelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl1.Location = new System.Drawing.Point(1132, 9);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(47, 42);
-            this.panelControl1.TabIndex = 18;
-            this.panelControl1.Click += new System.EventHandler(this.panelControl1_Click);
             // 
             // splashScreenManager1
             // 
@@ -6309,11 +6236,6 @@
             this.ClientSize = new System.Drawing.Size(1184, 711);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.navigationFrame1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelControl3);
-            this.Controls.Add(this.panelControlRedui);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.controleFooter1);
             this.Controls.Add(this.controleHeader1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -6322,9 +6244,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "إحصائيات";
             this.Load += new System.EventHandler(this.Statistique_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame1)).EndInit();
             this.navigationFrame1.ResumeLayout(false);
             this.navigationPage1.ResumeLayout(false);
@@ -6491,11 +6410,6 @@
 
         private ControleHeader controleHeader1;
         private ControleFooter controleFooter1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.PanelControl panelControlRedui;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
         private DevExpress.XtraBars.Navigation.NavigationFrame navigationFrame1;
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage1;

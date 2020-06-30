@@ -21,6 +21,7 @@ namespace DWM
         public Penalites()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية/المخالفات";
         }
         DataSet ds=new DataSet();
         DataView dv=new DataView();
@@ -187,32 +188,6 @@ namespace DWM
                     e.Appearance.BackColor2 = Color.FromArgb(0x00, 0x00, 0x00, 0x00);
                 }
             }
-        }
-
-        //// Generale
-        private void label3_Click(object sender, EventArgs e)
-        {
-            FormMenu fm = new FormMenu();
-            fm.ShowDialog();
-            this.Close();
-        }
-        private void panel2_Click(object sender, EventArgs e)
-        {
-            FormMenu fm = new FormMenu();
-            fm.ShowDialog();
-            this.Close();
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            FSleep.ShowDialog(this);
-        }
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

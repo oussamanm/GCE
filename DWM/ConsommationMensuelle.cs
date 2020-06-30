@@ -21,6 +21,7 @@ namespace DWM
         public ConsommationMensuelle()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية / الإستهلاك الشهري";
         }
 
         MySqlCommand AJOUTERFACT,CMDRECH, ANCOMP, CMDLAFAC, CMDMTFACT, DATEFACT, NBRCOM, NBRCONSO, CHRTIMAM, AUTREFRAIS, FRAIS, MTPARTICIPATION, AJOUCONSOM, AJOUPAIEMENT;
@@ -193,35 +194,6 @@ namespace DWM
                 MessageBox.Show(EX.ToString());
             }
         }
-
-
-        //////****** BtnGene
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-            FSleep.ShowDialog(this);
-        }
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            splashScreenManager1.ShowWaitForm();
-            Login LogFORM = new Login();
-            LogFORM.Show();
-
-            this.Hide();
-            splashScreenManager1.CloseWaitForm();
-        }
-        private void label3_Click(object sender, EventArgs e)
-        {
-            if (ClassConnexion.Macon.State == ConnectionState.Open)
-            {
-                ClassConnexion.Macon.Close();
-            }
-
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-            this.Hide();
-        }
-
 
         //////****** Code
 

@@ -32,12 +32,14 @@
             this.windowsUIButtonPanel1 = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.labelControlHome = new DevExpress.XtraEditors.LabelControl();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
+            this.panel1.Controls.Add(this.labelControlHome);
             this.panel1.Controls.Add(this.windowsUIButtonPanel1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -70,9 +72,9 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(377, 29);
+            this.label2.Location = new System.Drawing.Point(470, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(574, 22);
+            this.label2.Size = new System.Drawing.Size(481, 22);
             this.label2.TabIndex = 11;
             this.label2.Text = "المهمة";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -82,12 +84,32 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
             this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(397, 7);
+            this.label1.Location = new System.Drawing.Point(473, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(554, 22);
+            this.label1.Size = new System.Drawing.Size(478, 22);
             this.label1.TabIndex = 10;
             this.label1.Text = "المستخدم الحالي";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // labelControlHome
+            // 
+            this.labelControlHome.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControlHome.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControlHome.Appearance.Image = global::DWM.Properties.Resources.Home_32px;
+            this.labelControlHome.Appearance.Options.UseFont = true;
+            this.labelControlHome.Appearance.Options.UseForeColor = true;
+            this.labelControlHome.Appearance.Options.UseImage = true;
+            this.labelControlHome.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControlHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelControlHome.Dock = System.Windows.Forms.DockStyle.Left;
+            this.labelControlHome.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            this.labelControlHome.Location = new System.Drawing.Point(0, 0);
+            this.labelControlHome.Name = "labelControlHome";
+            this.labelControlHome.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.labelControlHome.Size = new System.Drawing.Size(409, 57);
+            this.labelControlHome.TabIndex = 88;
+            this.labelControlHome.Text = "الصفحة الرئيسية";
+            this.labelControlHome.Click += new System.EventHandler(this.labelControlHome_Click);
             // 
             // ControleHeader
             // 
@@ -108,5 +130,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanel1;
+        private DevExpress.XtraEditors.LabelControl labelControlHome;
     }
 }

@@ -33,7 +33,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Factures));
             this.controleFooter1 = new DWM.ControleFooter();
             this.controleHeader1 = new DWM.ControleHeader();
-            this.labelMenu = new System.Windows.Forms.Label();
             this.windowsUIButtonPanelMain = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.searchLookUpEditComp = new DevExpress.XtraEditors.SearchLookUpEdit();
@@ -75,10 +74,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
-            this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControlRedui = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
@@ -94,9 +89,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.TlFrais)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // controleFooter1
@@ -114,20 +106,6 @@
             this.controleHeader1.Name = "controleHeader1";
             this.controleHeader1.Size = new System.Drawing.Size(1184, 57);
             this.controleHeader1.TabIndex = 1;
-            // 
-            // labelMenu
-            // 
-            this.labelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.labelMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelMenu.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMenu.ForeColor = System.Drawing.Color.White;
-            this.labelMenu.Location = new System.Drawing.Point(18, 17);
-            this.labelMenu.Name = "labelMenu";
-            this.labelMenu.Size = new System.Drawing.Size(202, 24);
-            this.labelMenu.TabIndex = 91;
-            this.labelMenu.Text = "الصفحة الرئيسية/الفاتورة";
-            this.labelMenu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.labelMenu.Click += new System.EventHandler(this.labelMenu_Click);
             // 
             // windowsUIButtonPanelMain
             // 
@@ -702,57 +680,6 @@
             this.panelControl5.Size = new System.Drawing.Size(62, 64);
             this.panelControl5.TabIndex = 96;
             // 
-            // panelMenu
-            // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelMenu.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panelMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelMenu.Location = new System.Drawing.Point(215, 13);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(44, 27);
-            this.panelMenu.TabIndex = 92;
-            this.panelMenu.Click += new System.EventHandler(this.panelMenu_Click);
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl3.ContentImage = global::DWM.Properties.Resources.Cafe_32px;
-            this.panelControl3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl3.Location = new System.Drawing.Point(1078, 9);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(47, 42);
-            this.panelControl3.TabIndex = 90;
-            this.panelControl3.Click += new System.EventHandler(this.panelControl3_Click);
-            // 
-            // panelControlRedui
-            // 
-            this.panelControlRedui.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControlRedui.Appearance.Options.UseBackColor = true;
-            this.panelControlRedui.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControlRedui.ContentImage = global::DWM.Properties.Resources.Minus_32px;
-            this.panelControlRedui.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControlRedui.Location = new System.Drawing.Point(1030, 9);
-            this.panelControlRedui.Name = "panelControlRedui";
-            this.panelControlRedui.Size = new System.Drawing.Size(47, 42);
-            this.panelControlRedui.TabIndex = 89;
-            this.panelControlRedui.Click += new System.EventHandler(this.panelControlRedui_Click);
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl1.Appearance.Options.UseBackColor = true;
-            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl1.ContentImage = global::DWM.Properties.Resources.Shutdown_32px_3;
-            this.panelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl1.Location = new System.Drawing.Point(1127, 9);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(47, 42);
-            this.panelControl1.TabIndex = 88;
-            this.panelControl1.Click += new System.EventHandler(this.panelControl1_Click);
-            // 
             // splashScreenManager1
             // 
             this.splashScreenManager1.ClosingDelay = 500;
@@ -769,11 +696,6 @@
             this.Controls.Add(this.panelControl5);
             this.Controls.Add(this.panelControl2);
             this.Controls.Add(this.windowsUIButtonPanelMain);
-            this.Controls.Add(this.panelMenu);
-            this.Controls.Add(this.labelMenu);
-            this.Controls.Add(this.panelControl3);
-            this.Controls.Add(this.panelControlRedui);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.controleHeader1);
             this.Controls.Add(this.controleFooter1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -800,9 +722,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.TlFrais)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -811,11 +730,6 @@
 
         private ControleFooter controleFooter1;
         private ControleHeader controleHeader1;
-        private System.Windows.Forms.Panel panelMenu;
-        private System.Windows.Forms.Label labelMenu;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.PanelControl panelControlRedui;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanelMain;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.PanelControl panelControl5;

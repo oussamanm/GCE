@@ -23,7 +23,7 @@ namespace DWM
         public Config()
         {
             InitializeComponent();
-            
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية / إعدادات ";
         }
 
         string AplliqPenaLastMonth="";
@@ -2313,34 +2313,5 @@ namespace DWM
                 MessageBox.Show(ex.ToString());
             }
         }
-
-
-        /////**** Buttons Form    *****/////
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-            FSleep.ShowDialog(this);
-        }
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            splashScreenManager1.ShowWaitForm();
-            Login LogFORM = new Login();
-            LogFORM.Show();
-            this.Hide();
-            splashScreenManager1.CloseWaitForm();
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-        private void label3_Click(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-            this.Hide();
-        }
-
-
-
     }
 }

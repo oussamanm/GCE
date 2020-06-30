@@ -18,6 +18,7 @@ namespace DWM
         public Compteurs()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية/العدادات";
         }
 
         DataSet ds;
@@ -314,17 +315,7 @@ namespace DWM
             //if (gridView1.SelectedRowsCount == 1)
             //{
             //    MessageBox.Show(gridView1.GetDataRow(gridView1.FocusedRowHandle)[7].ToString());
-
-                
-
             //}
-        }
-        private void label3_Click(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-
-            this.Hide();
         }
     }
 }

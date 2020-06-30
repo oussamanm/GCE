@@ -20,8 +20,8 @@ namespace DWM
         public Statistique()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية  /  إحصائيات";
             gestiondata();
-            
         }
 
         MySqlCommand CMDCOM,FACTUR;
@@ -817,33 +817,6 @@ namespace DWM
             Secteuradherent.ShowRibbonPrintPreview();
         }
 
-        ///// Fomrs Generale
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            splashScreenManager1.ShowWaitForm();
-            Login LogFORM = new Login();
-            LogFORM.Show();
-
-            this.Hide();
-            splashScreenManager1.CloseWaitForm();
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-
-            FSleep.ShowDialog(this);
-        }
-        private void label3_Click(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-
-            this.Hide();
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
 
         DataSet dsCons;
 

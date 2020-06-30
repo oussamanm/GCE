@@ -59,6 +59,7 @@ namespace DWM
         public Paiement()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية/التحصيل الشهري";
             TbNum.Select();
         }
 
@@ -753,25 +754,6 @@ namespace DWM
                 ListePaiement LP = new ListePaiement();
                 LP.ShowDialog(this);
             }
-        }
-
-        ///////*********  Buttons Form ***********//////
-        private void label3_Click(object sender, EventArgs e)
-        {
-            FormMenu fm = new FormMenu();
-            fm.Show();
-            this.Close();
-        }
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            Login LogFORM = new Login();
-            LogFORM.Show();
-            this.Hide();
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-            FSleep.ShowDialog(this);
         }
 
         private void TbNum_KeyDown_1(object sender, KeyEventArgs e)

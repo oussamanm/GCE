@@ -37,11 +37,6 @@
             DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
             this.controleFooter1 = new DWM.ControleFooter();
             this.controleHeader1 = new DWM.ControleHeader();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControlRedui = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.RbAdh = new System.Windows.Forms.RadioButton();
             this.RbCom = new System.Windows.Forms.RadioButton();
@@ -109,9 +104,6 @@
             this.panelControl6 = new DevExpress.XtraEditors.PanelControl();
             this.windowsUIButtonPanelMain = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             this.groupBoxComp.SuspendLayout();
@@ -157,70 +149,6 @@
             this.controleHeader1.Name = "controleHeader1";
             this.controleHeader1.Size = new System.Drawing.Size(1184, 57);
             this.controleHeader1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(246, 13);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(44, 27);
-            this.panel2.TabIndex = 92;
-            this.panel2.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(228, 24);
-            this.label3.TabIndex = 91;
-            this.label3.Text = "الصفحة الرئيسية/التحصيل الشهري";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl3.ContentImage = global::DWM.Properties.Resources.Cafe_32px;
-            this.panelControl3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl3.Location = new System.Drawing.Point(1069, 9);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(47, 42);
-            this.panelControl3.TabIndex = 90;
-            this.panelControl3.Click += new System.EventHandler(this.panelControl3_Click);
-            // 
-            // panelControlRedui
-            // 
-            this.panelControlRedui.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControlRedui.Appearance.Options.UseBackColor = true;
-            this.panelControlRedui.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControlRedui.ContentImage = global::DWM.Properties.Resources.Minus_32px;
-            this.panelControlRedui.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControlRedui.Location = new System.Drawing.Point(1021, 9);
-            this.panelControlRedui.Name = "panelControlRedui";
-            this.panelControlRedui.Size = new System.Drawing.Size(47, 42);
-            this.panelControlRedui.TabIndex = 89;
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl1.Appearance.Options.UseBackColor = true;
-            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl1.ContentImage = global::DWM.Properties.Resources.Shutdown_32px_3;
-            this.panelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl1.Location = new System.Drawing.Point(1117, 9);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(47, 42);
-            this.panelControl1.TabIndex = 88;
-            this.panelControl1.Click += new System.EventHandler(this.panelControl1_Click);
             // 
             // panelControl2
             // 
@@ -1137,11 +1065,6 @@
             this.Controls.Add(this.panelControl5);
             this.Controls.Add(this.panelControl4);
             this.Controls.Add(this.panelControl2);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelControl3);
-            this.Controls.Add(this.panelControlRedui);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.controleHeader1);
             this.Controls.Add(this.controleFooter1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1150,9 +1073,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "التحصيل الشهري";
             this.Load += new System.EventHandler(this.Paiement_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             this.panelControl2.PerformLayout();
@@ -1198,11 +1118,6 @@
 
         private ControleFooter controleFooter1;
         private ControleHeader controleHeader1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.PanelControl panelControlRedui;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.PanelControl panelControl4;
         private DevExpress.XtraGrid.GridControl gridControl1;

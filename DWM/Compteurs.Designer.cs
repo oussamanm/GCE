@@ -44,8 +44,6 @@
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
             this.controleHeader1 = new DWM.ControleHeader();
             this.controleFooter1 = new DWM.ControleFooter();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.windowsUIButtonPanelMain = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -77,32 +75,6 @@
             this.controleFooter1.Name = "controleFooter1";
             this.controleFooter1.Size = new System.Drawing.Size(1184, 40);
             this.controleFooter1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(239, 17);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(33, 24);
-            this.panel2.TabIndex = 20;
-            this.panel2.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(53, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 22);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "الصفحة الرئيسية / العدادات";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // windowsUIButtonPanelMain
             // 
@@ -314,8 +286,6 @@
             this.Controls.Add(this.radioGroup1);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.windowsUIButtonPanelMain);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.controleFooter1);
             this.Controls.Add(this.controleHeader1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -336,8 +306,6 @@
 
         private ControleHeader controleHeader1;
         private ControleFooter controleFooter1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
         private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanelMain;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;

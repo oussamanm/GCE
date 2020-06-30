@@ -17,15 +17,14 @@ namespace DWM
             InitializeComponent();
         }
 
+        public string label_menu_btn = null;
+
         private void ControleHeader_Load(object sender, EventArgs e)
         {
-           // UserConnecte.login("bidouh", "25d55ad283aa400af464c76d713c07ad");
-         
-          
-                label1.Text = UserConnecte.NomUser + " " + UserConnecte.PrenomUser;
-                label2.Text = UserConnecte.LibelleType;
-            
-            
+            if (label_menu_btn != null)
+                labelControlHome.Text = label_menu_btn;
+            label1.Text = UserConnecte.NomUser + " " + UserConnecte.PrenomUser;
+            label2.Text = UserConnecte.LibelleType;
         }
 
         private void windowsUIButtonPanel1_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
@@ -53,6 +52,14 @@ namespace DWM
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void labelControlHome_Click(object sender, EventArgs e)
+        {
+            FormMenu MENU = new FormMenu();
+            MENU.Show();
+
+            this.ParentForm.Hide();
         }
     }
 }

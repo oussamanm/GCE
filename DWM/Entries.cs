@@ -17,6 +17,7 @@ namespace DWM
         public Entries()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية / الخدمات";
         }
         MySqlDataAdapter dr;
         DataSet ds = new DataSet();
@@ -73,6 +74,7 @@ namespace DWM
                 MessageBox.Show(ex.ToString());
             }
         }
+
         private void windowsUIButtonPanelMain_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
         {
             try
@@ -173,37 +175,5 @@ namespace DWM
             }
 
         }
-
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            splashScreenManager1.ShowWaitForm();
-            Login LoginFORM = new Login();
-            LoginFORM.Show();
-            this.Close();
-            splashScreenManager1.CloseWaitForm();
-        }
-        private void panel2_Click(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-
-            this.Close();
-        }
-        private void label3_Click(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-
-            this.Close();
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            FSleep.ShowDialog(this);
-        }
-
     }
 }

@@ -24,7 +24,6 @@ public static class HardwareInfo
             try
             {
                 return wmi.GetPropertyValue("SerialNumber").ToString();
-
             }
 
             catch { }

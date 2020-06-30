@@ -45,8 +45,6 @@
             this.RbAnnu = new System.Windows.Forms.RadioButton();
             this.RbAll = new System.Windows.Forms.RadioButton();
             this.RbDea = new System.Windows.Forms.RadioButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -258,32 +256,6 @@
             this.RbDea.UseVisualStyleBackColor = false;
             this.RbDea.CheckedChanged += new System.EventHandler(this.RbDea_CheckedChanged);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(213, 17);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(33, 24);
-            this.panel2.TabIndex = 87;
-            this.panel2.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(10, 17);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(202, 24);
-            this.label3.TabIndex = 86;
-            this.label3.Text = "الصفحة الرئيسية/المنخرطون";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
             // splashScreenManager1
             // 
             this.splashScreenManager1.ClosingDelay = 20;
@@ -293,8 +265,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1184, 711);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.windowsUIButtonPanelMain);
             this.Controls.Add(this.controleFooter1);
             this.Controls.Add(this.controleHeader1);
@@ -321,8 +291,6 @@
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton RbAnnu;
         private System.Windows.Forms.RadioButton RbDea;
         private System.Windows.Forms.RadioButton RbAll;

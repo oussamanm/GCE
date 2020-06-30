@@ -18,6 +18,7 @@ namespace DWM
         public Factures()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية/الفاتورة";
         }
 
         MySqlDataAdapter da;
@@ -197,38 +198,6 @@ namespace DWM
                 }
 
             }
-        }
-
-        private void labelMenu_Click(object sender, EventArgs e)
-        {
-            FormMenu Menu = new FormMenu();
-            Menu.Show();
-            this.Close();
-        }
-        private void panelMenu_Click(object sender, EventArgs e)
-        {
-            FormMenu Menu = new FormMenu();
-            Menu.Show();
-            this.Close();
-        }
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            splashScreenManager1.ShowWaitForm();
-            Login LogFORM = new Login();
-            LogFORM.Show();
-
-            this.Hide();
-            splashScreenManager1.CloseWaitForm();
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-
-            FSleep.ShowDialog(this);
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
 
         private void radioButtonNTr_CheckedChanged(object sender, EventArgs e)

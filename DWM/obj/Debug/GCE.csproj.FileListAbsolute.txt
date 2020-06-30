@@ -308,3 +308,14 @@ C:\Users\Nm\DWM - Copie secour 18-11-2017\DWM\obj\Debug\ar-MA\DWM.resources.dll
 C:\Users\Nm\DWM - Copie secour 18-11-2017\DWM\obj\Debug\DWM.exe
 C:\Users\Nm\DWM - Copie secour 18-11-2017\DWM\obj\Debug\DWM.pdb
 C:\Users\Nm\DWM - Copie secour 18-11-2017\DWM\obj\Debug\GCE.csprojResolveAssemblyReference.cache
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\es\DevExpress.Utils.v16.1.UI.resources.dll
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+C:\Users\Zbook\Desktop\GCE\Originel copie\DWM - Copie secour 18-11-2017\DWM\bin\Debug\es\DevExpress.XtraReports.v16.1.Extensions.resources.dll

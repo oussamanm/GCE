@@ -17,6 +17,7 @@ namespace DWM
         public Utilisateurs()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية/المستخدمين";
         }
         MySqlDataAdapter dr;
         DataSet ds = new DataSet();
@@ -195,41 +196,6 @@ namespace DWM
             {
                 MessageBox.Show(ex.ToString());
             }
-        }
-
-
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            Login LogFORM = new Login();
-            LogFORM.Show();
-            this.Close();
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            FSleep.ShowDialog(this);
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-        private void panel2_Click(object sender, EventArgs e)
-        {
-            FormMenu fm = new FormMenu();
-            fm.ShowDialog();
-            this.Close();
-        }
-        private void panel2_Click_1(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-
-            this.Close();
-        }
-        private void label3_Click_1(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-            this.Close();
         }
     }
 }

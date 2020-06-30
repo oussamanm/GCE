@@ -31,11 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rapport));
             this.controleFooter1 = new DWM.ControleFooter();
             this.controleHeader1 = new DWM.ControleHeader();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControlRedui = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.windowsUIButtonPanelCrean = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
             this.LbMntTot = new System.Windows.Forms.Label();
@@ -73,9 +68,6 @@
             this.gridViewSort = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
             this.panelControl5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.separatorControl3)).BeginInit();
@@ -97,52 +89,6 @@
             // 
             resources.ApplyResources(this.controleHeader1, "controleHeader1");
             this.controleHeader1.Name = "controleHeader1";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Name = "panel2";
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Name = "label3";
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("panelControl3.Appearance.BackColor")));
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl3.ContentImage = global::DWM.Properties.Resources.Cafe_32px;
-            this.panelControl3.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.panelControl3, "panelControl3");
-            this.panelControl3.Name = "panelControl3";
-            // 
-            // panelControlRedui
-            // 
-            this.panelControlRedui.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("panelControlRedui.Appearance.BackColor")));
-            this.panelControlRedui.Appearance.Options.UseBackColor = true;
-            this.panelControlRedui.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControlRedui.ContentImage = global::DWM.Properties.Resources.Minus_32px;
-            this.panelControlRedui.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.panelControlRedui, "panelControlRedui");
-            this.panelControlRedui.Name = "panelControlRedui";
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("panelControl1.Appearance.BackColor")));
-            this.panelControl1.Appearance.Options.UseBackColor = true;
-            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl1.ContentImage = global::DWM.Properties.Resources.Shutdown_32px_3;
-            this.panelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.panelControl1, "panelControl1");
-            this.panelControl1.Name = "panelControl1";
             // 
             // windowsUIButtonPanelCrean
             // 
@@ -586,19 +532,11 @@
             this.Controls.Add(this.CbAnn);
             this.Controls.Add(this.panelControl5);
             this.Controls.Add(this.windowsUIButtonPanelCrean);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelControl3);
-            this.Controls.Add(this.panelControlRedui);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.controleHeader1);
             this.Controls.Add(this.controleFooter1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Rapport";
             this.Load += new System.EventHandler(this.Rapport_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).EndInit();
             this.panelControl5.ResumeLayout(false);
             this.panelControl5.PerformLayout();
@@ -619,11 +557,6 @@
 
         private ControleFooter controleFooter1;
         private ControleHeader controleHeader1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.PanelControl panelControlRedui;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel windowsUIButtonPanelCrean;
         private DevExpress.XtraEditors.PanelControl panelControl5;
         private System.Windows.Forms.Label LbMtnAdh;

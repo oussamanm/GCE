@@ -21,6 +21,7 @@ namespace DWM
         public EntSortCais()
         {
             InitializeComponent();
+            controleHeader1.label_menu_btn = "الصفحة الرئيسية/المصاريف و المداخيل";
         }
         Boolean TestDejaEntE, TestDejaEntS = false;
         DataSet ds;
@@ -905,31 +906,6 @@ namespace DWM
             {
                 MessageBox.Show(ex.ToString());
             }
-        }
-
-        private void panelControl1_Click(object sender, EventArgs e)
-        {
-            splashScreenManager1.ShowWaitForm();
-            Login LogFORM = new Login();
-            LogFORM.Show();
-
-            this.Close();
-            splashScreenManager1.CloseWaitForm();
-        }
-        private void panelControl3_Click(object sender, EventArgs e)
-        {
-            Sleep FSleep = new Sleep();
-            FSleep.ShowDialog(this);
-        }
-        private void panelControlRedui_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-        private void panel2_Click_1(object sender, EventArgs e)
-        {
-            FormMenu MENU = new FormMenu();
-            MENU.Show();
-            this.Hide();
         }
 
 

@@ -157,7 +157,6 @@
             this.tileViewColumn4 = new DevExpress.XtraGrid.Columns.TileViewColumn();
             this.tileViewColumn5 = new DevExpress.XtraGrid.Columns.TileViewColumn();
             this.tileViewColumn6 = new DevExpress.XtraGrid.Columns.TileViewColumn();
-            this.label3 = new System.Windows.Forms.Label();
             this.tileControl2 = new DevExpress.XtraEditors.TileControl();
             this.tileGroup5 = new DevExpress.XtraEditors.TileGroup();
             this.tileItemcompteur = new DevExpress.XtraEditors.TileItem();
@@ -354,10 +353,6 @@
             this.windowsUIButtonPanelCatCais = new DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel();
             this.label54 = new System.Windows.Forms.Label();
             this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControlRedui = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.controleHeader1 = new DWM.ControleHeader();
             this.controleFooter1 = new DWM.ControleFooter();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
@@ -437,9 +432,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridControlCatCaisse)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewCatCaisse)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEditLibCais.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // tileViewColumn1
@@ -492,20 +484,6 @@
             this.tileViewColumn6.Name = "tileViewColumn6";
             this.tileViewColumn6.Visible = true;
             this.tileViewColumn6.VisibleIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(186, 22);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "الصفحة الرئيسية / إعدادات ";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // tileControl2
             // 
@@ -4029,60 +4007,6 @@
             // 
             this.toolTipController1.InitialDelay = 100;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(194, 14);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(33, 24);
-            this.panel2.TabIndex = 22;
-            this.panel2.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl3.ContentImage = global::DWM.Properties.Resources.Cafe_32px;
-            this.panelControl3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl3.Location = new System.Drawing.Point(1064, 11);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(47, 42);
-            this.panelControl3.TabIndex = 20;
-            this.panelControl3.Click += new System.EventHandler(this.panelControl3_Click);
-            // 
-            // panelControlRedui
-            // 
-            this.panelControlRedui.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControlRedui.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControlRedui.Appearance.Options.UseBackColor = true;
-            this.panelControlRedui.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControlRedui.ContentImage = global::DWM.Properties.Resources.Minus_32px;
-            this.panelControlRedui.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControlRedui.Location = new System.Drawing.Point(1012, 11);
-            this.panelControlRedui.Name = "panelControlRedui";
-            this.panelControlRedui.Size = new System.Drawing.Size(47, 42);
-            this.panelControlRedui.TabIndex = 19;
-            this.panelControlRedui.Click += new System.EventHandler(this.panelControlRedui_Click);
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panelControl1.Appearance.Options.UseBackColor = true;
-            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl1.ContentImage = global::DWM.Properties.Resources.Shutdown_32px_3;
-            this.panelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelControl1.Location = new System.Drawing.Point(1118, 11);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(47, 42);
-            this.panelControl1.TabIndex = 18;
-            this.panelControl1.Click += new System.EventHandler(this.panelControl1_Click);
-            // 
             // controleHeader1
             // 
             this.controleHeader1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -4110,11 +4034,6 @@
             this.ClientSize = new System.Drawing.Size(1184, 711);
             this.Controls.Add(this.navigationFrame1);
             this.Controls.Add(this.tileControl2);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelControl3);
-            this.Controls.Add(this.panelControlRedui);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.controleHeader1);
             this.Controls.Add(this.controleFooter1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -4221,9 +4140,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridControlCatCaisse)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewCatCaisse)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEditLibCais.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControlRedui)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4232,11 +4148,6 @@
 
         private ControleFooter controleFooter1;
         private ControleHeader controleHeader1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.PanelControl panelControlRedui;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.TileControl tileControl2;
         private DevExpress.XtraEditors.TileGroup tileGroup5;
         private DevExpress.XtraEditors.TileItem tileItemadherent;

@@ -64,9 +64,7 @@
             this.tileItemFinan = new DevExpress.XtraEditors.TileItem();
             this.tileGroup4 = new DevExpress.XtraEditors.TileGroup();
             this.tileItemEclai = new DevExpress.XtraEditors.TileItem();
-            this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panel2 = new System.Windows.Forms.Panel();
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::DWM.WaitForm1), true, true);
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
@@ -487,32 +485,10 @@
             this.tileItemEclai.Name = "tileItemEclai";
             this.tileItemEclai.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItemEclai_ItemClick);
             // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(75, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 22);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "الصفحة الرئيسية";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // timer1
             // 
             this.timer1.Interval = 60000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(177)))));
-            this.panel2.BackgroundImage = global::DWM.Properties.Resources.Home_32px;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Location = new System.Drawing.Point(215, 14);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(44, 27);
-            this.panel2.TabIndex = 17;
             // 
             // splashScreenManager1
             // 
@@ -756,8 +732,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1184, 711);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.flyoutPanel1);
             this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.controleFooter1);
@@ -798,8 +772,6 @@
         private DevExpress.XtraEditors.TileItem tileItemPena;
         private ControleHeader controleHeader1;
         private ControleFooter controleFooter1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
         private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;

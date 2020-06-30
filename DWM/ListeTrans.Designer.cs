@@ -61,11 +61,11 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(322, 7);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(157, 19);
+            this.label13.Size = new System.Drawing.Size(175, 19);
             this.label13.TabIndex = 18;
             this.label13.Text = "لائحة تحويلات العدادات";
             // 
